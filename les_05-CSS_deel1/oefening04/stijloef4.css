@@ -1,0 +1,23 @@
+table, th, td {
+    border: 1px solid white;
+    border-collapse: collapse;
+  }
+table {
+    font-style: initial;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #fafad2;
+}
+th {
+    color: white;
+    background-color: #4caf50;
+    text-align: left;
+    padding: 10px;
+}
+.eerste_rij{
+    min-width: 100px;
+    padding: 10px;
+}
+.active {
+    background-color: #ff8c00;
+    padding: 10px;
+}

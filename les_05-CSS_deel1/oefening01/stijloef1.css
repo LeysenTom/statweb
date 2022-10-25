@@ -1,0 +1,22 @@
+
+
+body {
+    background-color: #eeeeee;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    background-color: #800000;
+    color: #ffffff;
+    text-align: center;
+}
+
+h2 {
+    background-color: #ddffff;
+    border-left: 10px;
+    border-left-style: solid;
+    border-left-color: #2196f3;
+}
+p {
+    color: #a2a2a2;
+}
