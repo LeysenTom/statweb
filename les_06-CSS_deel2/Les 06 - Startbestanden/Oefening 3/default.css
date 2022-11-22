@@ -1,0 +1,23 @@
+*{
+    box-sizing: border-box;
+}
+.column30 {
+    float: left;
+    width: 30%;
+    padding: 15px
+}
+.column70 {
+    float: left;
+    width: 70%;
+    padding: 15px
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both
+}
+@media screen and (max-width: 600px) {
+    .column30,
+    .column70 {
+      width: 100%;
+    }}
