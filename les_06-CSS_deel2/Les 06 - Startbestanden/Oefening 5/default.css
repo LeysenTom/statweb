@@ -1,0 +1,44 @@
+
+body {
+    margin: 0px;
+    box-sizing: border-box
+}
+header, footer, nav, section {
+    padding: 5px
+}
+header {
+    background-color: black;
+    color: white;
+    text-align: center
+}
+nav {
+    float: left;
+    width: 30%;
+    background-color:whitesmoke;
+    height: 500px
+}
+ul {
+    list-style-type: none;
+    padding: 5px
+}
+a{
+    text-decoration: none;
+    color: black
+}
+h1{
+    font: bold
+}
+section {
+width: 70%;
+height: 500px
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both
+}
+footer {
+    background-color: black;
+    color: white;
+    text-align: center
+}

@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box
+}
+.column60 {
+    float: left;
+    width: 60%;
+    padding: 15px
+}
+.column40 {
+    float: left;
+    width: 40%;
+    padding: 15px
+}
+.column25 {
+    float: left;
+    width: 25%;
+    padding: 15px
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both
+}
+@media screen and (max-width: 500px) {
+    .column60,
+    .column40,
+    .column25 {
+      width: 100%;
+    }}
