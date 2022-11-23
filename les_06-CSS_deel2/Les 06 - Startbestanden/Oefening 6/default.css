@@ -43,7 +43,7 @@ footer {
 
 
 @media screen and (max-width: 600px) {
-    .aside,
+    aside,
     main {
       width: 100%
     }}
