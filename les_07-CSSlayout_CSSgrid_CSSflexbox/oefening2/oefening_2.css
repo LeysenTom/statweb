@@ -1,0 +1,40 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+body {
+    margin: 0;
+    padding: 0
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: 200px auto;
+    grid-template-rows: 2fr 3.5fr 1fr;
+    height: 100vh;
+    grid-gap: 5px;
+    grid-template-areas: "header header" "aside main" "footer footer";
+    box-sizing: border-box;
+}
+header, aside, main, footer {
+    display: flex;
+    color: white;
+    border-radius: 7px;
+    justify-content: center;
+    align-items: center;
+}
+header {
+    grid-area: header;
+    background-color: dodgerblue
+}
+aside {
+    grid-area: aside;
+    background-color: lightgreen
+}
+main {
+    grid-area: main;
+    background-color: black
+}
+footer {
+    grid-area: footer;
+    background-color: sandybrown;
+}

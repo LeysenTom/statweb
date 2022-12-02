@@ -1,0 +1,67 @@
+body{
+    margin: 0;
+    box-sizing: border-box
+}
+
+.row {
+    display: flex;
+    flex-wrap: nowrap;
+    height: 33vh
+}
+header > div, main > div, footer > div {
+    padding: 20px;
+    width: 50%;
+    border: 5px;
+    border-style: solid;
+    border-color: white;
+    align-items: center;
+    text-align: center;
+    font-size: large;
+    flex-direction: row;
+}
+.column {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+}
+.column > div {
+    width: 90%;
+    height: 20%;
+    padding: 1px;
+}
+#aqua {
+    background-color: aqua;
+}
+#violet {
+    background-color: violet;
+}
+#green {
+    background-color: lawngreen;
+}
+#oker {
+    background-color: gold;
+}
+#rood{
+    background-color: red;
+}
+#magenta {
+    background-color: darkmagenta;
+}
+#kaki {
+    background-color: darkseagreen;
+}
+#menu1 {
+    background-color: cadetblue;
+}
+#menu2 {
+    background-color: mediumseagreen;
+}
+#menu3 {
+    background-color: mediumvioletred;
+}
+#footer1 {
+    background-color: mediumblue;
+}
+#footer2 {
+    background-color: darkkhaki;
+}

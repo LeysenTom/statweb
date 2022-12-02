@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body,
+        html {
+            height: 100%;
+            margin: 0;
+            font-family: Lato, Arial;
+        }
+        .bg {
+            /* The image used */
+            background-image: url("kompas.jpg");
+        /* Full height */
+            height: 100%;
+        /* Center and scale the image nicely */
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+    }
+    .noord, .oost, .zuid, .west {
+        color: white;
+        position: absolute;
+        font-family: "Indie Flower", cursive;
+        font-size: 28px;
+        
+    }
+    .noord{
+        top: 10px;
+        left: 50%;
+        transform: translate(-50%, 0)
+    }
+    .oost {
+        right: 10px;
+        top: 50%;
+        transform: translate(0, -50%)
+    }
+    .zuid {
+        left: 50%;
+        bottom: 10px;
+        transform: translate(-50%, 0)
+    }
+    .west {
+        top: 50%;
+        left: 10px;
+        transform: translate(0, -50%)
+    }
+    </style>
+</head>
+<body>
+    <div class="bg">
+        <div class="noord">Noord</div>
+        <div class="oost">Oost</div>
+        <div class="zuid">Zuid</div>
+        <div class="west">West</div>
+    </div>
+    
+</body>
+</html>
